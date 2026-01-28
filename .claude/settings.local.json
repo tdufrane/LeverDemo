@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:hire.lever.co)",
+      "WebFetch(domain:github.com)",
+      "Bash(move list.js src )",
+      "Bash(move loader.js src )",
+      "Bash(move:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run build:min:*)",
+      "Bash(npm run build:all:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "leverdemo",
+  "version": "1.0.0",
+  "description": "This project provides a customizable integration with the Lever Jobs API to display job postings on your website, with support for filtering by department, team, location, and work type.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "build:min": "node build.js --minify",
+    "build:all": "node build.js && node build.js --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.27.2"
+  }
+}
